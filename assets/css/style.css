@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../Images/cubes.png");
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.container {
+    min-height: calc(100vh - 90px);
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.header-background {
+    width: 100%;
+    height: 75px;
+    background: #ffffff;
+    border-bottom: #cccccc 5px solid;
+}
+
+.data, .message {
+    width: 100%;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+}
+
+.dash {
+    color: #777777;
+    float: right;
+    margin-top: 12px;
+}
+
+.navigate {
+    float: right;
+    background-color: #ffffff;
+    color: #777777;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigate:hover {
+    background: #DDD1E8;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#name {
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    height: 70px;
+    padding: 20px 35px 0px;
+    background: #4aaaa5;
+}
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    border: #dddddd 1px solid;
+    padding: 34px 34px 20px;
+}
+
+#heading {
+    color: #4aaaa5;
+}
+
+#selfie {
+    float: left;
+    width: 235px;
+    height: 275px;
+    margin-right: 35px;
+}
+
+.bio {
+    line-height: 2;
+}
+
+.imgLink {
+    height: 240px;
+    width: 280px;
+    position: relative;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.imgLink:hover {
+    opacity: 0.5;
+}
+
+.imgLinkName {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    bottom: 0;
+    background: #4aaaa5;
+}
+
+.alignLeft {
+    float: left;
+    clear: left;
+}
+
+.alignRight {
+    float: right;
+    margin-right: 280px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.message {
+    height: 200px;
+    column-span: 100%;
+}
+
+#submit {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    padding: 10px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #4aaaa5;
+}
+
+#submit:hover {
+    background: #A9E8A7;
+}
+
+footer {
+    height: 60px;
+    padding-top: 30px;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    color: #ffffff;
+    background: #666666;
+    border-top: #4aaaa5 8px solid;
+}
