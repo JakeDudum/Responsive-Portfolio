@@ -164,3 +164,15 @@ footer {
     background: #666666;
     border-top: #4aaaa5 8px solid;
 }
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    
+}
