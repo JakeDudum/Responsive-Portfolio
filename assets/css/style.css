@@ -39,10 +39,10 @@ body {
 
 nav {
     float: right;
-    position: absolute;
-    top: 0;
+    position: relative;
     right: 0;
     margin-top: 15px;
+    margin-right: 20px;
 }
 
 .dash {
@@ -197,9 +197,30 @@ footer {
         width: 45vw;
         height: auto;
     }
-    
 }
 
 @media screen and (max-width: 640px) {
+    .header {
+        position: static;
+        margin-left: 0;
+    }
+
+    .header-background {
+        height: 150px;
+    }
     
+    #name {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* .nav {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    } */
+
+    #selfie {
+        width: 100%;
+    }
 }
