@@ -238,4 +238,9 @@ footer {
     #selfie {
         width: 100%;
     }
+
+    img, .imgLink {
+        width: 100%;
+        height: auto;
+    }
 }
