@@ -181,13 +181,22 @@ footer {
     }
 
     .content {
-        max-width: 720px;
+        width: 720px;
         margin-left: 2vw;
         margin-right: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .content {
+        width: auto;
+        margin-right: 2vw;
+    }
+
+    #selfie {
+        width: 45vw;
+        height: auto;
+    }
     
 }
 
