@@ -39,6 +39,9 @@ body {
 
 nav {
     float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     margin-top: 15px;
 }
 
@@ -52,7 +55,7 @@ nav {
     float: right;
     background-color: #ffffff;
     color: #777777;
-    padding: 14px 25px;
+    margin: 14px 25px;
     text-align: center;
     text-decoration: none;
 }
@@ -172,8 +175,13 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+    .header {
+        margin-left: 2vw;
+        width: 100%;
+    }
+
     .content {
-        width: 768px;
+        max-width: 720px;
         margin-left: 2vw;
         margin-right: 0;
     }
