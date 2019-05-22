@@ -201,6 +201,11 @@ footer {
         width: 45vw;
         height: auto;
     }
+
+    img, .imgLink {
+        width: 40vw;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 640px) {
