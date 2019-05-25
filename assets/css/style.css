@@ -102,6 +102,11 @@ section {
     line-height: 2;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+}
+
 .imgLink {
     height: 240px;
     width: 280px;
